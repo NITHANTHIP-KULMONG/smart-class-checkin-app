@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "smart-class-checkin-app",
+          "appId": "1:697573464945:android:8cd2be842e27e31619b4d0",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "smart-class-checkin-app",
+          "configurations": {
+            "android": "1:697573464945:android:8cd2be842e27e31619b4d0",
+            "ios": "1:697573464945:ios:0e74e98a4265757419b4d0",
+            "macos": "1:697573464945:ios:0e74e98a4265757419b4d0",
+            "web": "1:697573464945:web:80409876c69f464c19b4d0",
+            "windows": "1:697573464945:web:43700fe3a84731f219b4d0"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
